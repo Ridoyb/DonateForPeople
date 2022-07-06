@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.main-banner {
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+.main-banner-h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    padding-top: 5em;
+
+}
+
+.main-banner-paragraph {
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+
+.main-banner-button {
+
+    background-color: orangered;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 46%;
+
+}
+
+h1 {
+    font-size: 50px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+
+.donate-area-p {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.donate-div-area {
+    display: flex;
+    margin-left: 25%;
+    margin-top: 35px;
+}
+
+.amount {
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #f3f0ef;
+
+}
+
+.highlited-amount {
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    border: 2px solid orangered;
+    background-color: #f1baa5;
+}
+
+input {
+    background-color: #ffffff;
+    margin-left: 45%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 2px solid gray;
+}
+
+.second-donate-button {
+    background-color: orangered;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 46%;
+}
+
+
+.donate-plan-p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.flex-area {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.flex-area-icons{
+    align-items: flex-start;
+}
+
+.food{
+    background-color: #d8e0e3;
+    margin: 30px;
+    padding: 10px;
+    width: 30%;
+}
+
+.shelter{
+    background-color: #f1baa5;
+    margin: 30px;
+    padding: 10px;
+    width: 30%;
+}
+.edu{
+    background-color: #f9f7e8;
+    margin: 30px;
+    padding: 10px;
+    width: 30%;
+}
+
+.bonus-section{
+    display: flex;
+}
